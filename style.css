@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(204, 204, 204);
+    position: relative;
+    top: 120px;
+    left: 340px;
+}
+.red-container {
+    position: relative;
+    bottom: 60px;
+    right: 20px;
+    background-color: rgb(255, 114, 114);
+    height: 600px;
+    width: 880px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 117px;
+    left: 172px;
+    height: 350px;
+    width: 540px;
+    background-color: rgb(231, 231, 231);
+    box-shadow: 0px 0px 20px -10px black;
+}
+#account-query-text {
+    font-size: 22px;
+    color: rgb(129, 129, 129);
+}
+input {
+    margin: 10px;
+    height: 50px;
+    padding-left: 14px;
+    border: 1px solid rgb(204, 204, 204);
+    color: rgb(220, 220, 220);
+}
+button {
+    background-color: rgb(107, 213, 213);
+    color: #fff;
+    border-style: none;
+    padding-inline: 35px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 20px;
+}
+button:hover {
+    background-color: rgb(96, 250, 206);
+}
+button:active {
+    background-color: rgb(171, 224, 209);
+}
+#checkbox {
+    position: absolute;
+    top: 266px;
+    right: 459px;
+}
+#remember-me-text {
+    position: absolute;
+    top: 280px;
+    right: 374px;
+    font-size: small;
+    color: gray;
+}
