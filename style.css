@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(204, 204, 204);
+    color: rgb(171, 171, 171);
     position: relative;
     top: 120px;
     left: 340px;
@@ -14,7 +14,6 @@ body {
     width: 880px;
     border-radius: 10px;
 }
-
 form {
     display: flex;
     flex-direction: column;
@@ -29,14 +28,18 @@ form {
 }
 #account-query-text {
     font-size: 22px;
-    color: rgb(129, 129, 129);
+    color: rgb(171, 171, 171);
 }
+/* FIGURE OUT HOW TO CHANGE COLOR OF PLACEHOLDER TEXT INSIDE INPUT */
 input {
     margin: 10px;
     height: 50px;
     padding-left: 14px;
     border: 1px solid rgb(204, 204, 204);
     color: rgb(220, 220, 220);
+}
+input::placeholder {
+    color:rgb(171, 171, 171);
 }
 button {
     background-color: rgb(107, 213, 213);
@@ -57,11 +60,12 @@ button:active {
     position: absolute;
     top: 266px;
     right: 459px;
+    border: rgb(171, 171, 171) solid 2px;
 }
 #remember-me-text {
     position: absolute;
-    top: 280px;
-    right: 374px;
-    font-size: small;
-    color: gray;
+    top: 286px;
+    right: 397px;
+    font-size: x-small;
+    color: rgb(171, 171, 171);
 }
